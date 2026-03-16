@@ -1,0 +1,23 @@
+# Compiled RTL
+*.vcd
+*.fsdb
+*.saif
+*.log
+
+# Simulation
+sim/work/
+sim/obj_dir/
+*.out
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OpenClaw specific
+.openclaw/
+.clawhub/
+
+# Memory files (optional, can be large)
+memory/*.md
